@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="src\framework\framework.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility\common\common.h">
+      <Filter>utility\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\natives\crossmap\crossmap.h">
+      <Filter>natives\Crossmap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooking\hooking.h">
+      <Filter>hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\pointers\pointers.h">
+      <Filter>memory\Pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fiber\fiber_helper.h">
+      <Filter>fiber</Filter>
+    </ClInclude>
+    <ClInclude Include="src\natives\invoker\invoker.h">
+      <Filter>natives\Invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\submenu_types\abstract_submenu.h">
+      <Filter>framework\Submenu Types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\submenu_types\base_submenu.h">
+      <Filter>framework\Submenu Types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\submenu_types\regular_submenu.h">
+      <Filter>framework\Submenu Types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\option_types\button.h">
+      <Filter>framework\Option Types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\option_types\number.h">
+      <Filter>framework\Option Types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\option_types\abstract.h">
+      <Filter>framework\Option Types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\option_types\base.h">
+      <Filter>framework\Option Types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\option_types\toggle.h">
+      <Filter>framework\Option Types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\option_types\choose.h">
+      <Filter>framework\Option Types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\option_types\submenu.h">
+      <Filter>framework\Option Types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\option_types\text_box.h">
+      <Filter>framework\Option Types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\logger\logger.h">
+      <Filter>core\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooking\native\native_hook.h">
+      <Filter>hooking\Native Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooking\native\script_hook.h">
+      <Filter>hooking\Native Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility\util.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility\types.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility\timer.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\memory.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\natives\natives.h">
+      <Filter>natives</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\script\script_global.h">
+      <Filter>memory\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooking\vmt\hook.h">
+      <Filter>hooking\VMT Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\script\script.h">
+      <Filter>core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\ImGui\backends\imgui_impl_dx11.h">
+      <Filter>ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\ImGui\backends\imgui_impl_win32.h">
+      <Filter>ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility\setting.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\option_types\break.h">
+      <Filter>framework\Option Types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\direct_x\renderer.h">
+      <Filter>framework\Direct X</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility\lists.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\exceptions\handler.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\core\core.h">
+      <Filter>core\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\exceptions\disassembler.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\libary\register.h">
+      <Filter>discord\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\libary\handler.hpp">
+      <Filter>discord\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\libary\rpc.h">
+      <Filter>discord\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\notifications\notifications.h" />
+    <ClInclude Include="src\shv\script_hook_v.h" />
+    <ClInclude Include="src\features\feature_manager.h" />
+    <ClInclude Include="src\fiber\script\fiber_script.h" />
+    <ClInclude Include="src\fiber\script\manager\script_manager.h" />
+    <ClInclude Include="src\features\submenus\player\player.h" />
+    <ClInclude Include="src\utility\enum.h" />
+    <ClInclude Include="src\features\types\toggle.h" />
+    <ClInclude Include="src\core\script\drawing\drawing.h" />
+    <ClInclude Include="src\features\utils\find_by_id.h" />
+    <ClInclude Include="src\features\utils\utils.h" />
+    <ClInclude Include="src\features\types\choose.h" />
+    <ClInclude Include="src\features\types\float.h" />
+    <ClInclude Include="src\features\submenus\player\misc\no_clip.cpp" />
+    <ClInclude Include="src\features\utils\math.h" />
+    <ClInclude Include="src\core\script\submenus\self\noclip.h" />
+    <ClInclude Include="src\features\submenus\weapon\weapon.h" />
+    <ClInclude Include="src\features\submenus\weapon\misc\bullet_tracers.h" />
+    <ClInclude Include="src\core\script\submenus\weapon\bullet_tracers.h" />
+    <ClInclude Include="src\features\submenus\weapon\misc\paint.h" />
+    <ClInclude Include="src\core\script\submenus\self\forcefield.h" />
+    <ClInclude Include="src\features\submenus\weapon\misc\impacts.h" />
+    <ClInclude Include="src\core\script\submenus\weapon\teleport.h" />
+    <ClInclude Include="src\core\script\submenus\weapon\impacts.h" />
+    <ClInclude Include="src\features\submenus\vehicle\vehicle.h" />
+    <ClInclude Include="src\core\script\submenus\vehicle\acceleration.h" />
+    <ClInclude Include="src\features\submenus\weapon\misc\infinite.h" />
+    <ClInclude Include="src\core\script\submenus\weapon\general.h" />
+    <ClInclude Include="src\features\submenus\player\misc\godmode.cpp" />
+    <ClInclude Include="src\memory\pointers\pools.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\towtruck.h" />
+    <ClInclude Include="src\core\script\submenus\vehicle\towtruck.h" />
+    <ClInclude Include="src\features\submenus\weapon\misc\magnet.h" />
+    <ClInclude Include="src\core\script\submenus\weapon\magnet.h" />
+    <ClInclude Include="src\features\types\button.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\spawn.h" />
+    <ClInclude Include="src\core\script\submenus\vehicle\vehicle.h" />
+    <ClInclude Include="src\core\script\submenus\self\self.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\disables.h" />
+    <ClInclude Include="src\memory\script\script_local.h" />
+    <ClInclude Include="src\core\script\submenus\vehicle\stick_to_ground.h" />
+    <ClInclude Include="src\features\types\base.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\stick_to_ground.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\flags.h" />
+    <ClInclude Include="src\core\script\submenus\vehicle\disables.h" />
+    <ClInclude Include="src\framework\option_types\keyboard.h" />
+    <ClInclude Include="src\features\submenus\weapon\misc\disables.h" />
+    <ClInclude Include="src\core\script\submenus\weapon\weapon.h" />
+    <ClInclude Include="src\core\script\submenus\weapon\disables.h" />
+    <ClInclude Include="src\features\submenus\weapon\misc\modifiers.h" />
+    <ClInclude Include="src\features\submenus\weapon\misc\triggerbot.h" />
+    <ClInclude Include="src\features\submenus\weapon\misc\aimbot.h" />
+    <ClInclude Include="src\features\submenus\player\misc\reflections.h" />
+    <ClInclude Include="src\features\submenus\player\misc\misc.h" />
+    <ClInclude Include="src\core\script\submenus\self\movement.h" />
+    <ClInclude Include="src\features\submenus\player\misc\config_flags.hpp" />
+    <ClInclude Include="src\core\script\submenus\self\disables.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\auto_repair.h" />
+    <ClInclude Include="src\framework\option_types\toggle_with_choose.h" />
+    <ClInclude Include="src\framework\option_types\toggle_with_number.h" />
+    <ClInclude Include="src\features\types\toggle_with_choose.h" />
+    <ClInclude Include="src\features\types\toggle_with_number.h" />
+    <ClInclude Include="src\features\submenus\player\misc\collison.h" />
+    <ClInclude Include="src\features\submenus\player\misc\regeneration.cpp" />
+    <ClInclude Include="src\core\script\submenus\self\regeneration.h" />
+    <ClInclude Include="src\core\script\submenus\self\collision.h" />
+    <ClInclude Include="src\features\submenus\world\world.h" />
+    <ClInclude Include="src\features\submenus\world\misc\ped_esp.h" />
+    <ClInclude Include="src\core\script\submenus\world\world.h" />
+    <ClInclude Include="src\framework\submenu_types\player_submenu.h" />
+    <ClInclude Include="src\features\submenus\weapon\misc\force.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\misc.h" />
+    <ClInclude Include="src\features\submenus\weapon\misc\rapid_fire.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\modifiers.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\ramp.h" />
+    <ClInclude Include="src\framework\command_box\command_box.h" />
+    <ClInclude Include="src\features\submenus\weapon\misc\grenade.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\water.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\horn_boost.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\rocket_boost.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\godmode.h" />
+    <ClInclude Include="src\core\script\submenus\vehicle\engine_sound.h" />
+    <ClInclude Include="src\core\core\config.h" />
+    <ClInclude Include="src\core\script\submenus\weapon\main.h" />
+    <ClInclude Include="src\hooking\hooks\game\protections\render_crash.cpp" />
+    <ClInclude Include="src\features\submenus\network\network.h" />
+    <ClInclude Include="src\memory\hex_memory.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\tire_tracks.h" />
+    <ClInclude Include="src\features\submenus\world\misc\weather.h" />
+    <ClInclude Include="src\features\submenus\weapon\misc\display_weapon_on_back.cpp" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\gravity.h" />
+    <ClInclude Include="src\features\submenus\network\misc\force_thunder.h" />
+    <ClInclude Include="src\features\submenus\world\misc\waypoint_tracers.h" />
+    <ClInclude Include="src\framework\option_types\icon_button.h" />
+    <ClInclude Include="src\features\submenus\network\misc\globals.h" />
+    <ClInclude Include="src\features\utils\host.h" />
+    <ClInclude Include="src\features\utils\script_handler.h" />
+    <ClInclude Include="src\features\utils\bits.h" />
+    <ClInclude Include="src\features\other\los_santos_customs.h" />
+    <ClInclude Include="src\core\script\submenus\vehicle\los_santos_customs.h" />
+    <ClInclude Include="src\core\script\submenus\weapon\explosion_data.h" />
+    <ClInclude Include="src\memory\pointers\classes.h" />
+    <ClInclude Include="src\core\script\submenus\world\color.h" />
+    <ClInclude Include="src\features\submenus\weapon\misc\misc.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\weapons.h" />
+    <ClInclude Include="src\hooking\hooks\game\protections\protections.cpp" />
+    <ClInclude Include="src\hooking\dat_bit_buffer\dat_bit_buffer.h" />
+    <ClInclude Include="src\hooking\classes\extra.h" />
+    <ClInclude Include="src\core\script\submenus\weapon\gun_locker.h" />
+    <ClInclude Include="src\core\script\submenus\network\network.h" />
+    <ClInclude Include="src\core\script\submenus\network\recovery.h" />
+    <ClInclude Include="src\core\script\submenus\vehicle\particles.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\particles.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\acrobatics.h" />
+    <ClInclude Include="src\shv\vpbypass.h" />
+    <ClInclude Include="src\core\script\submenus\self\model_changer.h" />
+    <ClInclude Include="src\core\script\submenus\self\model_changer_table.h" />
+    <ClInclude Include="src\core\script\submenus\weapon\bullet_changer.h" />
+    <ClInclude Include="src\features\submenus\weapon\misc\bullet_changer.h" />
+    <ClInclude Include="src\core\script\submenus\self\super_jump.h" />
+    <ClInclude Include="src\core\script\submenus\vehicle\color.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\color.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\speedometer.h" />
+    <ClInclude Include="src\features\utils\caller.h" />
+    <ClInclude Include="src\core\script\configs\gravity.h" />
+    <ClInclude Include="src\features\submenus\world\misc\alien_invasion.h" />
+    <ClInclude Include="src\core\script\submenus\vehicle\auto_pilot.h" />
+    <ClInclude Include="src\core\script\submenus\vehicle\handling.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\wheel.h" />
+    <ClInclude Include="src\features\submenus\world\misc\disables.h" />
+    <ClInclude Include="src\features\submenus\world\misc\vfx.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\parachute.h" />
+    <ClInclude Include="src\core\script\submenus\vehicle\parachute.h" />
+    <ClInclude Include="src\core\script\submenus\self\clipsets.h" />
+    <ClInclude Include="src\core\script\submenus\self\ped_matrix.h" />
+    <ClInclude Include="src\features\submenus\player\misc\ped_matrix.h" />
+    <ClInclude Include="src\core\script\submenus\self\scenarios.h" />
+    <ClInclude Include="src\core\script\submenus\network\rid_toolkit.h" />
+    <ClInclude Include="src\features\utils\rid_utils.h" />
+    <ClInclude Include="src\features\submenus\network\misc\overseer.h" />
+    <ClInclude Include="src\core\script\submenus\network\overseer.h" />
+    <ClInclude Include="src\core\script\submenus\network\recovery_money.h" />
+    <ClInclude Include="src\core\script\submenus\world\weather.h" />
+    <ClInclude Include="src\features\submenus\world\misc\time.h" />
+    <ClInclude Include="src\core\script\submenus\world\time.h" />
+    <ClInclude Include="src\framework\option_types\color.h" />
+    <ClInclude Include="src\features\submenus\player\misc\classes.h" />
+    <ClInclude Include="src\features\submenus\weapon\misc\classes.hpp" />
+    <ClInclude Include="src\core\script\submenus\world\clouds.h" />
+    <ClInclude Include="src\core\script\submenus\self\ragdoll.h" />
+    <ClInclude Include="src\features\submenus\player\misc\ragdoll\ragdoll.hpp" />
+    <ClInclude Include="src\features\submenus\player\misc\movement\movement.hpp" />
+    <ClInclude Include="src\core\script\submenus\self\outfit_editor.h" />
+    <ClInclude Include="src\core\script\submenus\world\peds.h" />
+    <ClInclude Include="src\core\script\submenus\world\ocean.h" />
+    <ClInclude Include="src\core\script\submenus\teleport\teleport.h" />
+    <ClInclude Include="src\features\submenus\misc\misc.h" />
+    <ClInclude Include="src\core\script\submenus\misc\misc.h" />
+    <ClInclude Include="src\core\script\submenus\vehicle\tire_tracks_vfx.h" />
+    <ClInclude Include="src\core\script\submenus\world\dispatch.h" />
+    <ClInclude Include="src\core\script\submenus\self\magnet.h" />
+    <ClInclude Include="src\rage\time_cycle.h" />
+    <ClInclude Include="src\core\script\submenus\self\config_flags.h" />
+    <ClInclude Include="src\features\utils\operator.h" />
+    <ClInclude Include="src\framework\command_box\misc\util.h" />
+    <ClInclude Include="src\memory\pointers\scanning.h" />
+    <ClInclude Include="src\hooking\detour\detour.h" />
+    <ClInclude Include="src\hooking\hooks\shv.h" />
+    <ClInclude Include="src\features\submenus\network\misc\responses.h" />
+    <ClInclude Include="src\features\chat_commands\chat_commands.h" />
+    <ClInclude Include="src\features\chat_commands\types.h" />
+    <ClInclude Include="src\hooking\packets\packet.h" />
+    <ClInclude Include="src\core\script\player_manager\player_manager.h" />
+    <ClInclude Include="src\core\script\player_manager\types.h" />
+    <ClInclude Include="src\hooking\xor.h" />
+    <ClInclude Include="src\core\script\submenus\network\players.h" />
+    <ClInclude Include="src\framework\vehicle_preview\vehicle_preview.h" />
+    <ClInclude Include="src\framework\option_types\vehicle_button.h" />
+    <ClInclude Include="src\core\script\submenus\network\chat.h" />
+    <ClInclude Include="src\features\hotkeys\hotkeys.h" />
+    <ClInclude Include="src\features\hotkeys\types.h" />
+    <ClInclude Include="src\core\script\submenus\network\protections.h" />
+    <ClInclude Include="src\hooking\protections\protection_manager.h" />
+    <ClInclude Include="src\features\submenus\network\misc\notifications.h" />
+    <ClInclude Include="src\core\script\submenus\vehicle\ramp.h" />
+    <ClInclude Include="src\core\script\submenus\self\visions.h" />
+    <ClInclude Include="src\core\script\submenus\teleport\locations.h" />
+    <ClInclude Include="src\features\submenus\world\misc\glowing_pickups.h" />
+    <ClInclude Include="src\core\script\submenus\weapon\particles.h" />
+    <ClInclude Include="src\features\submenus\misc\misc\classes.h" />
+    <ClInclude Include="src\hooking\spoofing.h" />
+    <ClInclude Include="src\core\script\submenus\network\spoofing.h" />
+    <ClInclude Include="src\features\submenus\network\misc\classes.h" />
+    <ClInclude Include="src\memory\patching\byte.h" />
+    <ClInclude Include="src\features\utils\curl_wrapper.h" />
+    <ClInclude Include="src\features\submenus\vehicle\misc\classes.h" />
+    <ClInclude Include="src\features\utils\model_info.h" />
+    <ClInclude Include="src\hooking\hooks\game\can_apply_data_helpers.h" />
+    <ClInclude Include="src\utility\rate_limiter.h" />
+    <ClInclude Include="src\features\types\keyboard.h" />
+    <ClInclude Include="src\core\script\submenus\weapon\projectile_editor.h" />
+    <ClInclude Include="src\core\script\submenus\spawner\spawner.h" />
+    <ClInclude Include="src\framework\direct_x\font_data\fa_solid_900.h" />
+    <ClInclude Include="src\framework\direct_x\font_data\font_awesome.h" />
+    <ClInclude Include="src\rage\network\CNetworkEvent.hpp" />
+    <ClInclude Include="src\features\other\bodyguard_manager\bodyguard_manager.h" />
+    <ClInclude Include="src\core\script\submenus\network\recovery\recovery_mod_account.h" />
+    <ClInclude Include="src\core\script\submenus\network\recovery\recovery_unlocks.h" />
+    <ClInclude Include="src\framework\direct_x\resources.h" />
+    <ClInclude Include="src\core\script\submenus\weapon\crosshair.h" />
+    <ClInclude Include="src\memory\pointers\dev_pool.h" />
+    <ClInclude Include="src\memory\cdeclstub.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\framework\framework.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\common\common.cpp">
+      <Filter>utility\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooking\hooking.cpp">
+      <Filter>hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\pointers\pointers.cpp">
+      <Filter>memory\Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\natives\invoker\invoker.cpp">
+      <Filter>natives\Invoker</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\logger\logger.cpp">
+      <Filter>core\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\script\script.cpp">
+      <Filter>core\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\framework\ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\framework\ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\framework\ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\framework\ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\framework\ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\framework\ImGui\backends\imgui_impl_dx11.cpp">
+      <Filter>ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="src\framework\ImGui\backends\imgui_impl_win32.cpp">
+      <Filter>ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="src\discord\discord.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="src\framework\direct_x\renderer.cpp">
+      <Filter>framework\Direct X</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exceptions\handler.cpp">
+      <Filter>exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\core\core.cpp">
+      <Filter>core\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shv\script_hook_v.cpp" />
+    <ClCompile Include="src\framework\config\config.cpp" />
+    <ClCompile Include="src\framework\helpers\helpers.cpp" />
+    <ClCompile Include="src\framework\notifications\notifications.cpp" />
+    <ClCompile Include="src\fiber\script\fiber_script.cpp" />
+    <ClCompile Include="src\fiber\script\manager\script_manager.cpp" />
+    <ClCompile Include="src\features\submenus\player\player.cpp" />
+    <ClCompile Include="src\features\submenus\weapon\weapon.cpp" />
+    <ClCompile Include="src\features\submenus\vehicle\vehicle.cpp" />
+    <ClCompile Include="src\memory\script\script_local.cpp" />
+    <ClCompile Include="src\features\submenus\world\world.cpp" />
+    <ClCompile Include="src\features\submenus\network\network.cpp" />
+    <ClCompile Include="src\memory\hex_memory.cpp" />
+    <ClCompile Include="src\memory\script\script_global.cpp" />
+    <ClCompile Include="src\features\utils\script_handler.cpp" />
+    <ClCompile Include="src\shv\vpbypass.cpp" />
+    <ClCompile Include="src\framework\animations\menu.hpp" />
+    <ClCompile Include="src\features\submenus\player\misc\super_jump.cpp" />
+    <ClCompile Include="src\features\submenus\player\misc\spinbot.cpp" />
+    <ClCompile Include="src\features\submenus\player\misc\forcefield.cpp" />
+    <ClCompile Include="src\features\submenus\player\misc\fov.cpp" />
+    <ClCompile Include="src\features\submenus\player\misc\config_flags.cpp" />
+    <ClCompile Include="src\features\submenus\player\misc\ragdoll\ragdoll.cpp" />
+    <ClCompile Include="src\features\submenus\player\misc\respawn.cpp" />
+    <ClCompile Include="src\features\submenus\player\misc\movement\movement.cpp" />
+    <ClCompile Include="src\features\submenus\player\misc\outfit_editor.cpp" />
+    <ClCompile Include="src\features\submenus\misc\misc.cpp" />
+    <ClCompile Include="src\features\submenus\misc\misc\camera\camera.cpp" />
+    <ClCompile Include="src\features\submenus\player\misc\magnet.cpp" />
+    <ClCompile Include="src\framework\command_box\misc\engine.cpp" />
+    <ClCompile Include="src\framework\command_box\misc\processers.cpp" />
+    <ClCompile Include="src\features\chat_commands\chat_commands.cpp" />
+    <ClCompile Include="src\hooking\packets\packet.cpp" />
+    <ClCompile Include="src\core\script\player_manager\player_manager.cpp" />
+    <ClCompile Include="src\core\script\player_manager\buttons.cpp" />
+    <ClCompile Include="src\framework\vehicle_preview\vehicle_preview.cpp" />
+    <ClCompile Include="src\features\hotkeys\hotkeys.cpp" />
+    <ClCompile Include="src\hooking\hooks\game\protections\crashes.cpp" />
+    <ClCompile Include="src\hooking\hooks\game\chat.cpp" />
+    <ClCompile Include="src\features\submenus\misc\misc\vibration.cpp" />
+    <ClCompile Include="src\features\submenus\weapon\misc\particles.cpp" />
+    <ClCompile Include="src\features\submenus\misc\misc\cutscene.cpp" />
+    <ClCompile Include="src\features\submenus\misc\misc\graphics.cpp" />
+    <ClCompile Include="src\features\submenus\misc\misc\random.cpp" />
+    <ClCompile Include="src\hooking\hooks\game\spoofing.cpp" />
+    <ClCompile Include="src\features\submenus\network\misc\chat_features.cpp" />
+    <ClCompile Include="src\features\submenus\network\misc\spoofingt.cpp" />
+    <ClCompile Include="src\hooking\hooks\bypass\bypass.cpp" />
+    <ClCompile Include="src\hooking\native\native_hook.cpp" />
+    <ClCompile Include="src\hooking\native\script_hook.cpp" />
+    <ClCompile Include="src\features\submenus\network\misc\streamer_mode.cpp" />
+    <ClCompile Include="src\features\submenus\vehicle\misc\doors.cpp" />
+    <ClCompile Include="src\hooking\hooks\game\syncing.cpp" />
+    <ClCompile Include="src\hooking\hooks\game\can_apply_data.cpp" />
+    <ClCompile Include="src\hooking\hooks\game\get_event_data.cpp" />
+    <ClCompile Include="src\features\submenus\network\misc\modder_detection.cpp" />
+    <ClCompile Include="src\features\submenus\weapon\misc\missle_launcher.cpp" />
+    <ClCompile Include="src\features\submenus\weapon\misc\entity_shooter.cpp" />
+    <ClCompile Include="src\features\submenus\player\misc\handtrails.cpp" />
+    <ClCompile Include="src\features\submenus\player\misc\iron_man.cpp" />
+    <ClCompile Include="src\features\other\bodyguard_manager\bodyguard_manager.cpp" />
+    <ClCompile Include="src\hooking\hooks\bypass\send_cheat_metric.cpp" />
+    <ClCompile Include="src\hooking\hooks\native\native_hooks.cpp" />
+    <ClCompile Include="src\hooking\hooks\gui\dx.cpp" />
+    <ClCompile Include="src\hooking\hooks\game\constructors.cpp" />
+    <ClCompile Include="src\hooking\hooks\other.cpp" />
+    <ClCompile Include="src\features\submenus\weapon\misc\gravity_gun.cpp" />
+    <ClCompile Include="src\features\utils\utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{91448290-2978-41e2-864b-c456299ab50a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\backends">
+      <UniqueIdentifier>{6d493a57-6aa8-4ca5-bae0-7f90dafaa504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{77afe01f-1408-49bd-a88b-21e856118c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Option Types">
+      <UniqueIdentifier>{d913f317-5d4f-4092-b986-2c8d40071289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Submenu Types">
+      <UniqueIdentifier>{30320d1e-e885-47cd-a227-b3f24758e8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Direct X">
+      <UniqueIdentifier>{b2e5c76f-9478-48ba-a35c-b80eebb33552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Notifications">
+      <UniqueIdentifier>{a14276ed-0c2c-4d7b-869f-b8994a8bcc07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooking">
+      <UniqueIdentifier>{62fed53b-5889-49ad-a402-a064a52cbed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooking\Native Hooking">
+      <UniqueIdentifier>{45be8b8d-6eb8-4687-bd45-8a2da3ee29f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooking\VMT Hooking">
+      <UniqueIdentifier>{eea93877-449d-4c69-8284-a90df9fa18db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{83dbf882-eb72-4bca-bd52-307d3fd04d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory\Script">
+      <UniqueIdentifier>{5b3703cc-0f04-4b4e-930e-b00dd3726138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory\Pointers">
+      <UniqueIdentifier>{2acff691-fff2-476d-93f2-c0f08715c478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{67b873d4-c87a-4fe3-8af6-04eda1c4368f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\Common">
+      <UniqueIdentifier>{61e19d42-51da-492b-904c-436ef713a743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="natives">
+      <UniqueIdentifier>{160d3ce5-e40f-4b52-a35d-1b32be8833c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="natives\Invoker">
+      <UniqueIdentifier>{aba1df7f-1f4b-4aa0-bd68-a6c011b51606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="natives\Crossmap">
+      <UniqueIdentifier>{12d1c62e-b9ef-4e16-8bce-0ef2f035cc66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fiber">
+      <UniqueIdentifier>{16c2e343-d833-4385-8d96-6e88ba2b0d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features">
+      <UniqueIdentifier>{ea72b387-0f69-4540-a47d-9fabd5870db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exceptions">
+      <UniqueIdentifier>{fa3efa65-c9b6-4e3d-aba1-37823481f594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="discord">
+      <UniqueIdentifier>{a6862363-a7b4-4a9e-a862-bd19c61e6822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="discord\Library">
+      <UniqueIdentifier>{3fd64bc3-2860-4d79-b7e3-a205688ccd52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{13318a34-d39a-4046-a1b5-2c9db8ea450d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Logger">
+      <UniqueIdentifier>{1cdd9f04-164c-477a-9a18-b5736834fab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Script">
+      <UniqueIdentifier>{45c23ef4-56cc-4169-ba79-322be860d638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Core">
+      <UniqueIdentifier>{a1d05cbb-869e-4973-8350-98f652f4c034}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="src\natives\ReturnSpoofer.asm">
+      <Filter>natives</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,95 @@
+#pragma once
+namespace rage {
+	//struct __cppobj __declspec(align(16)) tcManager
+	//{
+	//	/*rage::atRangeArray<float, 2>*/ m_regionStrengths;
+	//	/*rage::atArray<float, 0, unsigned short>*/ m_modifierStrengths;
+	//	/*rage::atFixedArray<rage::tcManager::TCModOverride, 4>*/ m_modOverrides;
+	//	/*rage::atArray<rage::tcModifier*, 0, unsigned short>*/ int m_modifiersArray;
+	//	/*rage::atBinaryMap<rage::tcModifier*, rage::atNonFinalHashString> */int m_modifiersLookup;
+	//	/*rage::tcDebug*/ int m_debug;
+	//	int m_modifierBoxAdded;
+	//	int m_modifierBoxModified;
+	//	int m_modifierBoxRemoved;
+	//	int m_modifierBoxAddedMax;
+	//	int m_modifierBoxModifiedMax;
+	//	int m_modifierBoxRemovedMax;
+	//	/*rage::tcCycle**/ int m_cycles;
+	//	/*rage::atFixedArray<rage::tcBox, 32> */ int m_regionBoxes;
+	//	/*rage::atArray<rage::tcBoxRemovalInfo, 0, unsigned short>*/ int m_DeferredBoxRemovals;
+	//	/*rage::tcBoxTree*/ int m_modifierBoxTree;
+	//	bool m_modifierBoxTreeRebuildProhibited;
+	//	bool m_modifierBoxTreeIsValid;
+	//};
+
+	struct CTimeCycle
+	{
+		bool m_bReplaySniperScope;
+		__declspec(align(32)) /*rage::tcKeyframeUncompressed*/ int m_ReplayTCFrame;
+		/*rage::tcKeyframeUncompressed*/ int m_ReplayDefaultTCFrame;
+		bool m_bUsingDefaultTCData;
+		unsigned int m_ReplayModifierHash;
+		float m_ReplayModifierIntensity;
+		bool m_bReplayEnableExtraFX;
+		float m_ReplaySaturationIntensity;
+		float m_ReplayVignetteIntensity;
+		float m_ReplayContrastIntensity;
+		float m_ReplayBrightnessIntensity;
+		/*rage::atMap<unsigned int, unsigned short, rage::atMapHashFn<unsigned int>, rage::atMapEquals<unsigned int>, rage::atMapMemory<unsigned int, unsigned short> >*/ int m_EffectsMap;
+		/*__declspec(align(32)) rage::tcKeyframeUncompressed*/ int g_KeyframeCachedForReplayJump;
+		/*CTimeCycle::frameInfo*/ int m_frameInfo;
+		int m_numRegions;
+		int m_regionOverride;
+		/*rage::tcRegionInfo*/ int m_regionInfo[2];
+		int m_scriptModifierIndex;
+		float m_scriptModifierStrength;
+		int m_transitionScriptModifierIndex;
+		float m_transitionStrength;
+		float m_transitionSpeed;
+		bool m_transitionOut;
+		int m_pushedScriptModifierIndex;
+		int m_pushedTransitionScriptModifierIndex;
+		float m_pushedTransitionStrength;
+		float m_pushedTransitionSpeed;
+		bool m_pushedTransitionOut;
+		bool m_pushedScriptModifier;
+		int m_extraModifierIndex;
+		int m_playerModifierIndexCurrent;
+		int m_playerModifierIndexNext;
+		float m_playerModifierStrength;
+		int m_cutsceneModifierIndex;
+		float m_interiorBlendStrength;
+		bool m_interiorInitialised;
+		bool m_interiorApply;
+		bool m_interiorReset;
+		float m_interior_down_color_r;
+		float m_interior_down_color_g;
+		float m_interior_down_color_b;
+		float m_interior_down_intensity;
+		int m_interior_main_idx;
+		float m_interior_up_color_r;
+		float m_interior_up_color_g;
+		float m_interior_up_color_b;
+		float m_interior_up_intensity;
+		int m_interior_secondary_idx;
+		bool m_useDefaultKeyframe;
+		float m_vsFarClipMultiplier;
+		float m_vsNearFogMultiplier;
+		float m_vsMultiplierHeightStart;
+		float m_vsOoMultiplierRange;
+		float m_vsRimLight;
+		float m_vsGlobalEnvironmentReflection;
+		float m_vsGamma;
+		float m_vsMidBlur;
+		float m_vsFarBlur;
+		float m_vsSkyMultiplier;
+		float m_vsDesaturation;
+		float m_vsDOFblurScale;
+		float m_vsCutsceneNearBlurMin;
+		float m_vsMoonDimMult;
+		float m_vsNextGenModifer;
+		float m_vsSpecularOffset;
+		bool m_IsTimeCycleValid;
+		/*CTimeCycleDebug*/int m_gameDebug;
+	};
+}
